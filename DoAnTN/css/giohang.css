@@ -1,0 +1,82 @@
+.giohang{
+    margin-top: 0px;
+	width: 80%;
+	margin: 0 auto;
+}
+.header{
+    margin-top: 100px;
+	background-color: burlywood;	
+	font-size: 1vw;
+		
+	color: crimson;
+	border-radius: 5px;
+}
+.header h1{
+	margin: 10px 20px;
+    text-align: center;
+}
+.row{
+	display: flex ;
+	flex-wrap: wrap;
+}
+.row1{
+	text-align-last: center;
+	width: 100%;
+}
+.mb{
+	margin-bottom: 20px;
+}
+
+.formcontent{
+	padding: 20px 0px;
+}
+.mb10{
+	margin: 10px;
+}
+.formcontent input[type ="text"]{
+	width: 40%;
+	border: 1px #ccc solid;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.formcontent input[type ="submit"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="submit"]:hover{
+	background-color: #ccc;
+}
+.formcontent input[type ="reset"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="reset"]:hover{
+	background-color: #ccc;
+}
+.formcontent input[type ="button"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="button"]:hover{
+	background-color: #ccc;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    padding: 20px;
+    background-color: #CCC;
+}
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}

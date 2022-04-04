@@ -1,0 +1,217 @@
+.boxcentrer{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.row{
+	float: left;
+	width: 100%;
+}
+.mb{
+	margin-bottom: 20px;
+}
+.demo{
+	background-color: blueviolet;
+	min-height: 100px;
+}
+.header{
+	background-color: burlywood;
+	border: 1px #009900;
+	font-size: 1vw;
+	color: crimson;
+	border-radius: 5px;
+}
+.header h1{
+	margin: 10px 20px;
+}
+/* .menu{
+	background-color: rgb(97, 95, 93);
+	color: cyan;
+	border-radius: 5px;
+}
+.menu ul{
+	padding: 0px 10px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+	padding: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+	font-size: 16px;
+}
+.menu ul li a:hover{
+	color: white;
+	font-size: 1.5vw;
+} */
+.them{
+	background-color: rgb(201, 196, 191);
+	border: 1px #009900;
+	font-size: 1vw;
+	color: black;
+	border-radius: 5px;
+}
+.them h1{
+	margin: 10px 20px;
+}
+.formcontent{
+	padding: 20px 0px;
+
+}
+.mb10{
+	margin: 10px;
+}
+.formcontent input[type ="text"]{
+	width: 40%;
+	border: 1px #ccc solid;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.formcontent input[type ="submit"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="submit"]:hover{
+	background-color: #ccc;
+}
+.formcontent input[type ="reset"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="reset"]:hover{
+	background-color: #ccc;
+}
+.formcontent input[type ="button"]{
+	border-radius: 5px;
+	padding: 5px 10px;
+	border: 1px #ccc solid;
+	background-color: white;
+}
+.formcontent input[type ="button"]:hover{
+	background-color: #ccc;
+}
+
+.frmdsloai table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th {
+    padding: 20px;
+    background-color: #CCC;
+}
+.frmdsloai table td {
+    padding: 10px 20px;
+    border: 1px #CCC solid;
+}
+/*  */
+.menu>ul {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.menu ul li {
+    margin-left: 20px;
+    padding: 6px 0;
+}
+.menu>ul>li:last-child a {
+    background-color: #A773E8;
+    padding: 6px 12px;
+    border-radius: 20px;
+
+}
+.menu>ul>li:last-child a:hover {
+    background-color: #8133e0;
+    color: black;
+}
+.menu>ul>li:last-child:hover a {
+    color: black;
+}
+.menu>ul>li>a {
+    font-weight: bold;
+    line-height: 50px;
+    color: black;
+}
+.menu ul li {
+    position: relative;
+}
+.nav-sub {
+    position: absolute;
+    width: 250px;
+    background-color: #fff;
+    top: calc(100% + 0px);
+    left: -50px;
+    display: none;
+
+}
+.nav-sub ul li a {
+    color: black;
+}
+.nav-sub ul li {
+    margin-bottom: 12px;
+}
+.nav-sub ul {
+    position: relative;
+    padding: 30px 12px;
+}
+.nav-sub ul::before {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(221, 221, 221, 1);
+    position: absolute;
+    content: "";
+    top:-15px;
+    left: 50px;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.menu ul li:hover .nav-sub{
+    display: block;
+    animation: submenu 0.2s linear;
+    /* top: calc(100% + 15px); */
+}
+@keyframes submenu {
+    0% {top: 100px;}
+    /* 100% {
+        top: 0px;
+    } */
+}
+.header-nav ul li:hover > a {
+    color: #8133e0;
+}
+.nav-sub ul li:hover {
+    padding-left: 12px;
+}
+.nav-sub ul li  {
+    transition: all 0.3s ease;
+}
+.ds_trang{
+	margin-top: 10px;
+	margin-left: 20px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.ds_trang li{
+	float: left;
+	padding: 5px 13px;
+	margin: 5px;
+	background: lightcoral;
+	display: block;
+}
+.ds_trang li a{
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+}
+.ds_trang li a:hover{
+	color: aqua;
+}

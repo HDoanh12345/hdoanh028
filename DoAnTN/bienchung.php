@@ -1,0 +1,4 @@
+<?php
+    $hinhpath="upload/";
+    
+?>
